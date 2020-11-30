@@ -46,3 +46,21 @@ text-decoration: underline;
 .imagen {
     background-color: linen;
 }
+
+.servicios
+{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: -apple-system;
+}
+
+.servicios__contenedor{
+    width: 26%;
+}
+
+.servicios__contenedor--texto{
+    text-align: left;
+}
