@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+background-color: lightseagreen;
+margin-bottom: 20px;
+}
+.barra-superior{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    width: 20%;
+    font-family: cursive;
+    font-size: x-large;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.logo{
+    width: 15%;
+    font-family: cursive;
+    font-size: x-large;
+    margin-right: 0px;
+}
+.contenedor-menu{
+    width: 65%;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.menu-item > a{
+    text-decoration: none;
+}
+.menu-item > a:hover{
+font-size: 20px;
+text-decoration: underline;
+}
+
+.imagen {
+    background-color: linen;
+}
